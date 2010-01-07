@@ -2,3 +2,10 @@ Winky is an arduino-based (or rather -centric) project for temperature
 logging. It uses the SHT15 sensor as input. I described my plan- and goals for
 the project on my blog:
 http://eval.nu/blog/2010/01/06/winky-an-arduino-based-temperature-logger-project-plan/.
+
+Right now, the code is split into three parts:
+* winky.pde - code for the arduino to recieve and forward temperature data
+* tempcoll.py - code for recieving and logging data from the arduino via USB tty
+* tempplot.py - code for plotting graphs using mathplotlib
+
+Most of it probably isn't very useful yet.
