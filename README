@@ -1,0 +1,4 @@
+Winky is an arduino-based (or rather -centric) project for temperature
+logging. It uses the SHT15 sensor as input. I described my plan- and goals for
+the project on my blog:
+http://eval.nu/blog/2010/01/06/winky-an-arduino-based-temperature-logger-project-plan/.
